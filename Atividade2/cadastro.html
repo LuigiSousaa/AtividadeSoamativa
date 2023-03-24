@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+    <div class="menu">
+        <form action="/Atividade2/inicial.html" method="POST" enctype="text/plain" name="cadastro">
+            <br>
+            <center>
+                <h1> Cadastro</h1>
+            </center>
+            <br>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="text" size="60" placeholder="Informe seu nome">
+            <br>
+            <br>
+            <label for="text">CPF:</label>
+            <input type="text" name="text" size="20" placeholder="Informe seu CPF">
+            <label for="text">Endereço</label>
+            <input type="text" name="text" size="40" placeholder="Informe seu Endereço  ">
+            <br>
+            <br>
+            Nível: <select name="Nível">
+                <option value=""> Casa
+                <option value=""> Apartamento
+                <option value=""> Sítio
+            </select>
+            <br>
+            <br>
+            <label for="text">Email:</label>
+            <input type="email" name="email" size="40" placeholder="Informe seu email">
+            <label for="password">Senha</label>
+            <input type="password" name="senha" size="20" placeholder="Informe a senha">
+            Status: <select name="Status">
+                <option value=""> Ativo
+                <option value=""> Inativo
+            </select>
+            <br>
+            <br>
+            <br>
+            <input type="SUBMIT" VALUE="Enviar os dados">
+            <input type="RESET" VALUE="Limpar os dados">
+
+        </form><br>
+
+        <form action="inicial.html">
+            <input class="voltar" type="submit" value="VOLTAR">
+        </form>
+    </div>
+</body>
+
+</html>

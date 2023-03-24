@@ -1,0 +1,19 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(200,199,199,1) 36%, rgba(193,193,193,1) 100%);
+}
+.li {
+    width: 80%
+}
+
+.pt1 {
+    width: 50%;
+}
+.menu{
+    background-color: grey;
+    width: 600px;
+    height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
